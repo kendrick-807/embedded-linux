@@ -41,3 +41,8 @@ NeoVim is used for the text editor as it is wildly configurable and feature rich
 
 <img width="936" alt="Displaying nvim" src="https://user-images.githubusercontent.com/113900048/199712058-d4f9e560-04f8-4203-8dec-11796cb2feab.png">
 
+## Changed theme of the terminal
+
+<img width="719" alt="Theme Configured In Termial" src="https://user-images.githubusercontent.com/113900048/199715122-70249e81-bb96-4f0f-b908-1d3187c8b78f.png">
+
+*Reference:* https://caffeinedev.medium.com/customize-your-terminal-oh-my-zsh-on-ubuntu-18-04-lts-a9b11b63f2
