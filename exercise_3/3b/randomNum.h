@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int * randomNum(int max, int min, int size);
+int  randomNum(int max, int min);
 
 #endif
