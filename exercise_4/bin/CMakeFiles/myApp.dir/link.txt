@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/myApp.dir/main.c.o CMakeFiles/myApp.dir/randomNum.c.o -o myApp 
