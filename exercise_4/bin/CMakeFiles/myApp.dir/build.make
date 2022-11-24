@@ -69,44 +69,44 @@ include CMakeFiles/myApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/myApp.dir/flags.make
 
-CMakeFiles/myApp.dir/main.c.o: CMakeFiles/myApp.dir/flags.make
-CMakeFiles/myApp.dir/main.c.o: ../main.c
-CMakeFiles/myApp.dir/main.c.o: CMakeFiles/myApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendrick807/lab2/embedded-linux/exercise_4/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/myApp.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/myApp.dir/main.c.o -MF CMakeFiles/myApp.dir/main.c.o.d -o CMakeFiles/myApp.dir/main.c.o -c /home/kendrick807/lab2/embedded-linux/exercise_4/main.c
+CMakeFiles/myApp.dir/src/main.c.o: CMakeFiles/myApp.dir/flags.make
+CMakeFiles/myApp.dir/src/main.c.o: ../src/main.c
+CMakeFiles/myApp.dir/src/main.c.o: CMakeFiles/myApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendrick807/lab2/embedded-linux/exercise_4/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/myApp.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/myApp.dir/src/main.c.o -MF CMakeFiles/myApp.dir/src/main.c.o.d -o CMakeFiles/myApp.dir/src/main.c.o -c /home/kendrick807/lab2/embedded-linux/exercise_4/src/main.c
 
-CMakeFiles/myApp.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myApp.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kendrick807/lab2/embedded-linux/exercise_4/main.c > CMakeFiles/myApp.dir/main.c.i
+CMakeFiles/myApp.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myApp.dir/src/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kendrick807/lab2/embedded-linux/exercise_4/src/main.c > CMakeFiles/myApp.dir/src/main.c.i
 
-CMakeFiles/myApp.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myApp.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kendrick807/lab2/embedded-linux/exercise_4/main.c -o CMakeFiles/myApp.dir/main.c.s
+CMakeFiles/myApp.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myApp.dir/src/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kendrick807/lab2/embedded-linux/exercise_4/src/main.c -o CMakeFiles/myApp.dir/src/main.c.s
 
-CMakeFiles/myApp.dir/randomNum.c.o: CMakeFiles/myApp.dir/flags.make
-CMakeFiles/myApp.dir/randomNum.c.o: ../randomNum.c
-CMakeFiles/myApp.dir/randomNum.c.o: CMakeFiles/myApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendrick807/lab2/embedded-linux/exercise_4/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/myApp.dir/randomNum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/myApp.dir/randomNum.c.o -MF CMakeFiles/myApp.dir/randomNum.c.o.d -o CMakeFiles/myApp.dir/randomNum.c.o -c /home/kendrick807/lab2/embedded-linux/exercise_4/randomNum.c
+CMakeFiles/myApp.dir/src/randomNum.c.o: CMakeFiles/myApp.dir/flags.make
+CMakeFiles/myApp.dir/src/randomNum.c.o: ../src/randomNum.c
+CMakeFiles/myApp.dir/src/randomNum.c.o: CMakeFiles/myApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kendrick807/lab2/embedded-linux/exercise_4/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/myApp.dir/src/randomNum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/myApp.dir/src/randomNum.c.o -MF CMakeFiles/myApp.dir/src/randomNum.c.o.d -o CMakeFiles/myApp.dir/src/randomNum.c.o -c /home/kendrick807/lab2/embedded-linux/exercise_4/src/randomNum.c
 
-CMakeFiles/myApp.dir/randomNum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myApp.dir/randomNum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kendrick807/lab2/embedded-linux/exercise_4/randomNum.c > CMakeFiles/myApp.dir/randomNum.c.i
+CMakeFiles/myApp.dir/src/randomNum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/myApp.dir/src/randomNum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kendrick807/lab2/embedded-linux/exercise_4/src/randomNum.c > CMakeFiles/myApp.dir/src/randomNum.c.i
 
-CMakeFiles/myApp.dir/randomNum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myApp.dir/randomNum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kendrick807/lab2/embedded-linux/exercise_4/randomNum.c -o CMakeFiles/myApp.dir/randomNum.c.s
+CMakeFiles/myApp.dir/src/randomNum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/myApp.dir/src/randomNum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kendrick807/lab2/embedded-linux/exercise_4/src/randomNum.c -o CMakeFiles/myApp.dir/src/randomNum.c.s
 
 # Object files for target myApp
 myApp_OBJECTS = \
-"CMakeFiles/myApp.dir/main.c.o" \
-"CMakeFiles/myApp.dir/randomNum.c.o"
+"CMakeFiles/myApp.dir/src/main.c.o" \
+"CMakeFiles/myApp.dir/src/randomNum.c.o"
 
 # External object files for target myApp
 myApp_EXTERNAL_OBJECTS =
 
-myApp: CMakeFiles/myApp.dir/main.c.o
-myApp: CMakeFiles/myApp.dir/randomNum.c.o
+myApp: CMakeFiles/myApp.dir/src/main.c.o
+myApp: CMakeFiles/myApp.dir/src/randomNum.c.o
 myApp: CMakeFiles/myApp.dir/build.make
 myApp: CMakeFiles/myApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kendrick807/lab2/embedded-linux/exercise_4/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable myApp"

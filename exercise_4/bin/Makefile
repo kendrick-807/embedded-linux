@@ -129,53 +129,53 @@ myApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/build
 .PHONY : myApp/fast
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-randomNum.o: randomNum.c.o
-.PHONY : randomNum.o
+src/randomNum.o: src/randomNum.c.o
+.PHONY : src/randomNum.o
 
 # target to build an object file
-randomNum.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/randomNum.c.o
-.PHONY : randomNum.c.o
+src/randomNum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/randomNum.c.o
+.PHONY : src/randomNum.c.o
 
-randomNum.i: randomNum.c.i
-.PHONY : randomNum.i
+src/randomNum.i: src/randomNum.c.i
+.PHONY : src/randomNum.i
 
 # target to preprocess a source file
-randomNum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/randomNum.c.i
-.PHONY : randomNum.c.i
+src/randomNum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/randomNum.c.i
+.PHONY : src/randomNum.c.i
 
-randomNum.s: randomNum.c.s
-.PHONY : randomNum.s
+src/randomNum.s: src/randomNum.c.s
+.PHONY : src/randomNum.s
 
 # target to generate assembly for a file
-randomNum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/randomNum.c.s
-.PHONY : randomNum.c.s
+src/randomNum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myApp.dir/build.make CMakeFiles/myApp.dir/src/randomNum.c.s
+.PHONY : src/randomNum.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myApp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... randomNum.o"
-	@echo "... randomNum.i"
-	@echo "... randomNum.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/randomNum.o"
+	@echo "... src/randomNum.i"
+	@echo "... src/randomNum.s"
 .PHONY : help
 
 

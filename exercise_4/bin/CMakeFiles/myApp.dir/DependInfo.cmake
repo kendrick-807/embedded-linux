@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kendrick807/lab2/embedded-linux/exercise_4/main.c" "CMakeFiles/myApp.dir/main.c.o" "gcc" "CMakeFiles/myApp.dir/main.c.o.d"
-  "/home/kendrick807/lab2/embedded-linux/exercise_4/randomNum.c" "CMakeFiles/myApp.dir/randomNum.c.o" "gcc" "CMakeFiles/myApp.dir/randomNum.c.o.d"
+  "/home/kendrick807/lab2/embedded-linux/exercise_4/src/main.c" "CMakeFiles/myApp.dir/src/main.c.o" "gcc" "CMakeFiles/myApp.dir/src/main.c.o.d"
+  "/home/kendrick807/lab2/embedded-linux/exercise_4/src/randomNum.c" "CMakeFiles/myApp.dir/src/randomNum.c.o" "gcc" "CMakeFiles/myApp.dir/src/randomNum.c.o.d"
   )
 
 # Targets to which this target links.
